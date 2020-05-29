@@ -5,4 +5,4 @@ from .models import Wish
 class WishSerializer(serializers.ModelSerializer):
     class Meta:
         model = Wish
-        fields = ['title', 'author', 'wish']
+        fields = ['title', 'author', 'wish', 'image']
