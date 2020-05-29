@@ -26,7 +26,7 @@ SECRET_KEY = '@i@3@pa0wgrz)n6mm9bf#akcpd#2-@tec%v7@wwrkr23d(@h1u'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['bday-wish-api.herokuapp.com/', '127.0.0.0']
 
 
 # Application definition
