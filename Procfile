@@ -1,1 +1,1 @@
-web: gunicorn bday_wish_api.wsgi
+web: gunicorn bday_wish_api.bday_wish_api.wsgi
