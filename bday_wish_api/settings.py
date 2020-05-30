@@ -139,8 +139,4 @@ DEFAULT_FILE_STORAGE = 'storages.backends.s3boto3.S3Boto3Storage'
 
 django_heroku.settings(locals())
 
-CORS_ORIGIN_ALLOW_ALL = False
-
-CORS_ORIGIN_WHITELIST = (
-    'http//:bday-wish-api.herokuapp.com/',
-)
+CORS_ORIGIN_ALLOW_ALL = True
