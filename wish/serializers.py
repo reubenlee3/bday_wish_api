@@ -3,6 +3,8 @@ from .models import Wish
 
 
 class WishSerializer(serializers.ModelSerializer):
+    id = serializers.ReadOnlyField()
+
     class Meta:
         model = Wish
-        fields = ['title', 'author', 'wish', 'image']
+        fields = ['id', 'title', 'author', 'wish', 'image']
